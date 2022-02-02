@@ -1,0 +1,15 @@
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\MyFirstCSHArpProject.exe
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\MyFirstCSHArpProject.deps.json
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\MyFirstCSHArpProject.runtimeconfig.json
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\MyFirstCSHArpProject.dll
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\ref\MyFirstCSHArpProject.dll
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\bin\Debug\net6.0\MyFirstCSHArpProject.pdb
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.csproj.AssemblyReference.cache
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.AssemblyInfoInputs.cache
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.AssemblyInfo.cs
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.csproj.CoreCompileInputs.cache
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.dll
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\ref\MyFirstCSHArpProject.dll
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.pdb
+C:\Users\bizit\source\repos\MyFirstCSHArpProject\MyFirstCSHArpProject\obj\Debug\net6.0\MyFirstCSHArpProject.genruntimeconfig.cache
