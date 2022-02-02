@@ -1,14 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+int[,] numbers = { {1,2 },{2,3 } ,{ 3,2} };
+Console.WriteLine(numbers[1,1]);
 
 
-if (GuessWord("Mupenzi"))
-{
-    Console.WriteLine("You have Win the Prize of 50 000 $ Congratulation ");
-}
-else {
-    Console.WriteLine("Failed to Pass The test Mr Bizimungu Theoneste ");
-}
+
 
 Console.ReadLine();
 
@@ -16,7 +12,7 @@ static bool GuessWord(String word)
    
 {
     String guess = "";
-    int number_of_Guess = 3;
+    int number_of_Guess = 4;
     do
     {
         Console.Write("Enter Word to guess please :");
