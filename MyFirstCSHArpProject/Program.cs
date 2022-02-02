@@ -1,16 +1,51 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.Write("Enter First Number : ");
-double num1= Convert.ToDouble(Console.ReadLine());
-Console.Write("Enter Operation please \" +,*,/,- \" : ");
-String op = Console.ReadLine();
-Console.Write("Enter Second Number : ");
-double num2 = Convert.ToDouble(Console.ReadLine());
 
-if (op == "*") {
-    Console.WriteLine("The answer is multiplication " + (num1*num2));
+
+if (GuessWord("Mupenzi"))
+{
+    Console.WriteLine("You have Win the Prize of 50 000 $ Congratulation ");
 }
-else if (op == "+")
+else {
+    Console.WriteLine("Failed to Pass The test Mr Bizimungu Theoneste ");
+}
+
+Console.ReadLine();
+
+static bool GuessWord(String word)
+   
+{
+    String guess = "";
+    int number_of_Guess = 3;
+    do
+    {
+        Console.Write("Enter Word to guess please :");
+        guess = Console.ReadLine();
+        number_of_Guess--;
+    }
+    while (guess != word && number_of_Guess>1);
+
+    if (number_of_Guess < 1)
+    {
+        return false;
+    }
+    else { 
+    return true;
+    }
+
+}
+
+    //Console.Write("Enter First Number : ");
+    //double num1= Convert.ToDouble(Console.ReadLine());
+    //Console.Write("Enter Operation please \" +,*,/,- \" : ");
+    //String op = Console.ReadLine();
+    //Console.Write("Enter Second Number : ");
+    //double num2 = Convert.ToDouble(Console.ReadLine());
+
+    //if (op == "*") {
+    ////Console.WriteLine("The answer is multiplication " + (num1*num2));
+    //}
+/*else if (op == "+")
 {
     Console.WriteLine("The answer is Addition " + (num1 + num2));
 }
@@ -28,7 +63,7 @@ else
     Console.WriteLine("Invalid operation " + op);
 }
 Console.ReadLine();
-
+*/
 //SayHi("Theo");
 ///SayHi("Icyeza");
 //SayHi("Amandine");
