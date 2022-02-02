@@ -1,36 +1,65 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+Console.Write("Enter First Number : ");
+double num1= Convert.ToDouble(Console.ReadLine());
+Console.Write("Enter Operation please \" +,*,/,- \" : ");
+String op = Console.ReadLine();
+Console.Write("Enter Second Number : ");
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+if (op == "*") {
+    Console.WriteLine("The answer is multiplication " + (num1*num2));
+}
+else if (op == "+")
+{
+    Console.WriteLine("The answer is Addition " + (num1 + num2));
+}
+else if (op == "-")
+{
+    Console.WriteLine("The answer is Substitution " + (num1 - num2));
+}
+else if (op == "/")
+{
+    Console.WriteLine("The answer is Division " + (num1 + num2));
+}
+else
+{
+
+    Console.WriteLine("Invalid operation " + op);
+}
+Console.ReadLine();
+
 //SayHi("Theo");
 ///SayHi("Icyeza");
 //SayHi("Amandine");
 //Console.WriteLine(cubedNumber(7));
-Console.WriteLine(getMaxValeur(10, 10));
-Console.ReadLine();
+//Console.WriteLine(getMaxValeur(10, 10));
+//Console.ReadLine();
 
-static void SayHi(String name)
-{
-    Console.WriteLine("Hello "+ name);
-}
+//static void SayHi(String name)
+//{
+//   Console.WriteLine("Hello "+ name);
+//}
 
-static int cubedNumber(int number) {
+//static int cubedNumber(int number) {
 
-    return (number * number * number);
-}
+//  return (number * number * number);
+//}
 
-static int getMaxValeur(int num1, int num2) {
+//static int getMaxValeur(int num1, int num2) {
 
-    if (num1 > num2)
-    {
-        return num1;
-    }
-    else if (num1 < num2)
-    {
-        return num2;
-    }
-    else return 0;
+//  if (num1 > num2)
+//  {
+//     return num1;
+//  }
+//  else if (num1 < num2)
+///    {
+//      return num2;
+//  }
+//   else return 0;
 
 
-}
+//}
 
 
 
